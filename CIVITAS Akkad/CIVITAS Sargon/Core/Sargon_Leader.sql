@@ -8,16 +8,16 @@
 -----------------------------------------------
 
 INSERT INTO	Types
-		(Type,					Kind				)
-VALUES	('LEADER_CVS_SARGON',	'KIND_LEADER'		);
+		(Type,					Kind			)
+VALUES	('LEADER_CVS_SARGON',	'KIND_LEADER'	);
 		
 -----------------------------------------------
 -- CivilizationLeaders
 -----------------------------------------------
 
 INSERT INTO	CivilizationLeaders
-		(CivilizationType,			LeaderType,				CapitalName					)
-VALUES	('CIVILIZATION_CVS_AKKAD',	'LEADER_CVS_SARGON',	'LOC_CITY_NAME_SC_AKKAD'	);
+		(CivilizationType,			LeaderType,				CapitalName				)
+VALUES	('CIVILIZATION_CVS_AKKAD',	'LEADER_CVS_SARGON',	'LOC_CITY_NAME_AKKAD'	);
 
 -----------------------------------------------
 -- Leaders

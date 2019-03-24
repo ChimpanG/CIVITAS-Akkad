@@ -53,6 +53,34 @@
 			<m_EntryID text="DIS_CVS_Akkad_UI_Base_04"/>
 			<m_ObjectName text="DIS_CVS_Akkad_UI_Base_04"/>
 		</Element>
+		<Element>
+			<m_EntryID text="IMP_Sapitu"/>
+			<m_ObjectName text="IMP_Sapitu"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Sapitu_Circle_A"/>
+			<m_ObjectName text="IMP_Sapitu_Circle_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Sapitu_Circle_B"/>
+			<m_ObjectName text="IMP_Sapitu_Circle_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Sapitu_Circle_C"/>
+			<m_ObjectName text="IMP_Sapitu_Circle_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Sapitu_Head"/>
+			<m_ObjectName text="IMP_Sapitu_Head"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Sapitu_Pillar_Single"/>
+			<m_ObjectName text="IMP_Sapitu_Pillar_Single"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Sapitu_Pillar_Tri"/>
+			<m_ObjectName text="IMP_Sapitu_Pillar_Tri"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

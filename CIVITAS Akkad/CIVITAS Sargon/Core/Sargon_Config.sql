@@ -68,7 +68,7 @@ VALUES	(
 		);
 
 -----------------------------------------------
--- PlayerItems (Rise and Fall)
+-- PlayerItems
 -----------------------------------------------
 
 INSERT INTO PlayerItems

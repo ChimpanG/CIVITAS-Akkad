@@ -113,3 +113,53 @@ VALUES	('CIVILIZATION_CVS_AKKAD',	'TERRAIN_DESERT',		3		),
 INSERT INTO	StartBiasFeatures
 		(CivilizationType,			FeatureType,		 	Tier	)
 VALUES	('CIVILIZATION_CVS_AKKAD',	'FEATURE_FLOODPLAINS',	1		);
+
+-----------------------------------------------
+-- RequirementSets
+-----------------------------------------------
+
+INSERT INTO RequirementSets
+        (RequirementSetId,					RequirementSetType			)
+VALUES	('REQSET_CVS_PLAYER_IS_AKKAD',	'REQUIREMENTSET_TEST_ALL'	),
+		('REQSET_CVS_LEADER_IS_AKKAD',	'REQUIREMENTSET_TEST_ANY'	);
+
+-----------------------------------------------
+-- RequirementSetRequirements
+-----------------------------------------------
+
+INSERT INTO RequirementSetRequirements
+        (RequirementSetId,					RequirementId					)
+VALUES	('REQSET_CVS_PLAYER_IS_AKKAD',	'REQ_CVS_PLAYER_IS_AKKAD'	);
+
+-----------------------------------------------
+-- Requirements
+-----------------------------------------------
+
+INSERT INTO Requirements
+		(RequirementId,					RequirementType						)
+VALUES	('REQ_CVS_PLAYER_IS_AKKAD',	'REQUIREMENT_REQUIREMENTSET_IS_MET'	);
+
+-----------------------------------------------
+-- RequirementArguments
+-----------------------------------------------
+
+INSERT INTO RequirementArguments
+		(RequirementId,					Name,				Value							)
+VALUES	('REQ_CVS_PLAYER_IS_AKKAD',	'RequirementSetId', 'REQSET_CVS_LEADER_IS_AKKAD'	);
+
+-----------------------------------------------
+-- Support for Alternative Leaders
+-----------------------------------------------
+/*
+INSERT INTO RequirementSetRequirements
+		(RequirementSetId,					RequirementId						)
+VALUES	('REQSET_CVS_LEADER_IS_AKKAD',	'REQ_CVS_AKKAD_UI_IS_LEADERNAME'	);
+
+INSERT INTO Requirements
+		(RequirementId,						RequirementType								)
+VALUES	('REQ_CVS_AKKAD_UI_LEADERNAME',	'REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES'	);
+
+INSERT INTO RequirementArguments
+		(RequirementId,						Name,			Value				)
+VALUES	('REQ_CVS_AKKAD_UI_LEADERNAME',	'LeaderType',	'LEADER_LEADERNAME'	);
+*/
