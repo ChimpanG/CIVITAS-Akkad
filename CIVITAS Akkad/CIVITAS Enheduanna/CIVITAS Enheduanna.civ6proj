@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>CIVITAS [ICON_GREATPERSON] Enheduanna</Name>
+    <Guid>1982d3bf-3617-4ea0-9f5b-83fa64711e99</Guid>
+    <ProjectGuid>57cd0276-8196-40a3-8766-c4c66c0b5114</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Adds Enheduanna as a leader for CIVITAS Akkad</Teaser>
+    <Description>Adds Enheduanna as a leader for CIVITAS [ICON_GOVERNMENT] Akkad</Description>
+    <Authors>Chrisy15</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <ModProperties>
+      <CompatibleVersions>2.0</CompatibleVersions>
+    </ModProperties>
+    <AssemblyName>CIVITAS Enheduanna</AssemblyName>
+    <RootNamespace>CIVITAS Enheduanna</RootNamespace>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Mod" title="CIVITAS [ICON_Government] Akkad" id="5fd81a48-54c6-4f25-b119-fc499a92cdf9" />
+</Associations>]]></AssociationData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Enheduanna_Setup_DB"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Enheduanna_Config.sql</File></UpdateDatabase><UpdateText id="Enheduanna_Setup_Text"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Enheduanna_Localisation.sql</File></UpdateText><UpdateIcons id="Enheduanna_Setup_Icons"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Enheduanna_Icons.sql</File></UpdateIcons><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="Enheduanna_Setup_Colors"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Enheduanna_Colors.sql</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Enheduanna_DB"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Enheduanna_Leader.sql</File><File>Core/Enheduanna_UA.sql</File><File>Core/Enheduanna_Agenda.sql</File><File>Core/Enheduanna_Strategy.sql</File><File>Core/Enheduanna_ModSupport.sql</File></UpdateDatabase><UpdateText id="Enheduanna_Text"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Enheduanna_Localisation.sql</File></UpdateText><UpdateIcons id="Enheduanna_Icons"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Enheduanna_Icons.sql</File></UpdateIcons><AddGameplayScripts id="Enheduanna_Scripts"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Enheduanna_Scripts.lua</File></AddGameplayScripts><UpdateColors id="Enheduanna_Colors"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Enheduanna_Colors.sql</File></UpdateColors></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Core\Enheduanna_Agenda.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Enheduanna_Colors.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Enheduanna_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Enheduanna_Icons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Enheduanna_Leader.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Enheduanna_ModSupport.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Enheduanna_Strategy.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Enheduanna_UA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Enheduanna_Scripts.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Enheduanna_Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Core\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

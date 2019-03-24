@@ -1,0 +1,425 @@
+Starting AssetCooker...
+XLP cook starting...
+C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad\XLPs\TileBases.xlp
+Opened output file: C:\Users\chris\Documents\My Games\Sid Meier's Civilization VI\Mods\CIVITAS Akkad\Platforms\Windows\BLPs/landmarks/tilebases.blp    For XLP: 'C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad\XLPs\TileBases.xlp'
+Starting 'landmarks/tilebases'
+Loading error asset: (Error/TileBase_Error_Asset)
+Error entity: () has class: () which is not allowed here!  THIS IS VERY BAD!
+Error asset: (Error/TileBase_Error_Asset) has errors itself.  THIS IS VERY BAD!
+Removing package asset entry: (DIS_CVS_Akkad_UI_Bld) due to errors in (DIS_CVS_Akkad_UI_Bld)
+Removing package asset entry: (DIS_CVS_Akkad_UI_Bld_Gate) due to errors in (DIS_CVS_Akkad_UI_Bld_Gate)
+Removing package asset entry: (DIS_CVS_Akkad_UI_Bld_Palisade) due to errors in (DIS_CVS_Akkad_UI_Bld_Palisade)
+Removing package asset entry: (DIS_CVS_Akkad_UI_Bld_Palisade_Corner) due to errors in (DIS_CVS_Akkad_UI_Bld_Palisade_Corner)
+Removing package asset entry: (DIS_CVS_Akkad_UI_Bld_Tower) due to errors in (DIS_CVS_Akkad_UI_Bld_Tower)
+Removing package asset entry: (DIS_CVS_Akkad_UI_Bld_Brazier) due to errors in (DIS_CVS_Akkad_UI_Bld_Brazier)
+Removing package asset entry: (DIS_CVS_Akkad_UI_Base_01) due to errors in (DIS_CVS_Akkad_UI_Base_01)
+Removing package asset entry: (DIS_CVS_Akkad_UI_Bld_Tower_2) due to errors in (DIS_CVS_Akkad_UI_Bld_Tower_2)
+Removing package asset entry: (DIS_CVS_Akkad_UI_Base_02) due to errors in (DIS_CVS_Akkad_UI_Base_02)
+Removing package asset entry: (DIS_CVS_Akkad_UI_Base_03) due to errors in (DIS_CVS_Akkad_UI_Base_03)
+Removing package asset entry: (DIS_CVS_Akkad_UI_Base_04) due to errors in (DIS_CVS_Akkad_UI_Base_04)
+The following 60 entities had errors:
+Assets: 12
+    DIS_CVS_Akkad_UI_Bld
+    DIS_CVS_Akkad_UI_Bld_Gate
+    DIS_CVS_Akkad_UI_Bld_Palisade
+    DIS_CVS_Akkad_UI_Bld_Palisade_Corner
+    DIS_CVS_Akkad_UI_Bld_Tower
+    DIS_CVS_Akkad_UI_Bld_Brazier
+    DIS_CVS_Akkad_UI_Base_01
+    DIS_CVS_Akkad_UI_Bld_Tower_2
+    DIS_CVS_Akkad_UI_Base_02
+    DIS_CVS_Akkad_UI_Base_03
+    DIS_CVS_Akkad_UI_Base_04
+    Error/TileBase_Error_Asset
+Materials: 12
+    DIS_CVS_Akkad_UI_Bld_mat
+    FOW/DefaultMaterial
+    DefaultSnowMaterial
+    DefaultBurnMaterial
+    WON_Hanging_Gardens_Plants_Emissive
+    Decal_Parts_Ancient_01
+    Ruin_Debris_Decal_Light
+    DIS_CVS_Akkad_UI_Bld_Walls_mat
+    DIS_CVS_Akkad_UI_Bld_Palisade_mat
+    IMP_Colossal_Heads
+    DIS_CVS_Akkad_UI_Bld_Brazier_mat
+    Decal_Parts_Ancient_PIL
+Geos: 22
+    WON_Hanging_Gardens_EM
+    CityWalls_ANC_gate_Decals
+    CityWalls_ANC_gate_PIL_Decals
+    CityWalls_ANC_gate
+    CityWalls_ANC_gate_PIL
+    Won_Hagia_Wall_Straight
+    Won_Hagia_Wall_Corner_Out
+    citywalls_anc_sm_tower_Decals
+    citywalls_anc_sm_tower_PIL_Decals
+    CityWalls_ANC_sm_tower
+    citywalls_anc_sm_tower_PIL
+    IMP_Colossal_Heads_Brazier_Lg_PIL
+    IMP_Colossal_Heads_Brazier_Lg
+    DIS_ENC_ANC_CLA_OB
+    DIS_ENC_Construction_Base_01_Decal
+    DIS_ENC_Construction_Base_01
+    DIS_ENC_Ancient_Base_01_Decal
+    DIS_ENC_Ancient_Base_01
+    citywalls_anc_lg_tower_PIL_Decals
+    citywalls_anc_lg_tower_Decals
+    CityWalls_ANC_lg_tower
+    citywalls_anc_lg_tower_PIL
+Textures: 14
+    city_walls_ANC_A
+    WON_Hanging_Gardens_N
+    WON_Hanging_Gardens_A
+    WON_Hanging_Gardens_M
+    WON_Hanging_Gardens_G
+    WON_Hanging_Gardens_L
+    WON_Hanging_Gardens_E
+    city_walls_A
+    WON_Hagia_Sophia_N
+    WON_Hagia_Sophia_M
+    WON_Hagia_Sophia_G
+    IMP_Colossal_Heads_N
+    IMP_Colossal_Heads_A
+    IMP_Colossal_Heads_G
+
+****** Log from Asset:     'DIS_CVS_Akkad_UI_Bld' (ERRORS!!) ********
+--------------
+ Model instance: 'WON_Hanging_Gardens_EM' of Asset: 'DIS_CVS_Akkad_UI_Bld' references geo: 'WON_Hanging_Gardens_EM' which does not exist.
+
+
+****** Log from Asset:     'DIS_CVS_Akkad_UI_Bld_Gate' (ERRORS!!) ********
+--------------
+ Model instance: 'CityWalls_ANC_gate_Decals' of Asset: 'DIS_CVS_Akkad_UI_Bld_Gate' references geo: 'CityWalls_ANC_gate_Decals' which does not exist.
+Model instance: 'CityWalls_ANC_gate_PIL_Decals' of Asset: 'DIS_CVS_Akkad_UI_Bld_Gate' references geo: 'CityWalls_ANC_gate_PIL_Decals' which does not exist.
+Model instance: 'CityWalls_ANC_gate' of Asset: 'DIS_CVS_Akkad_UI_Bld_Gate' references geo: 'CityWalls_ANC_gate' which does not exist.
+Model instance: 'CityWalls_ANC_gate_PIL' of Asset: 'DIS_CVS_Akkad_UI_Bld_Gate' references geo: 'CityWalls_ANC_gate_PIL' which does not exist.
+
+
+****** Log from Asset:     'DIS_CVS_Akkad_UI_Bld_Palisade' (ERRORS!!) ********
+--------------
+ Model instance: 'Won_Hagia_Wall_Straight' of Asset: 'DIS_CVS_Akkad_UI_Bld_Palisade' references geo: 'Won_Hagia_Wall_Straight' which does not exist.
+
+
+****** Log from Asset:     'DIS_CVS_Akkad_UI_Bld_Palisade_Corner' (ERRORS!!) ********
+--------------
+ Model instance: 'Won_Hagia_Wall_Corner_Out' of Asset: 'DIS_CVS_Akkad_UI_Bld_Palisade_Corner' references geo: 'Won_Hagia_Wall_Corner_Out' which does not exist.
+
+
+****** Log from Asset:     'DIS_CVS_Akkad_UI_Bld_Tower' (ERRORS!!) ********
+--------------
+ Model instance: 'citywalls_anc_sm_tower_Decals' of Asset: 'DIS_CVS_Akkad_UI_Bld_Tower' references geo: 'citywalls_anc_sm_tower_Decals' which does not exist.
+Model instance: 'citywalls_anc_sm_tower_PIL_Decals' of Asset: 'DIS_CVS_Akkad_UI_Bld_Tower' references geo: 'citywalls_anc_sm_tower_PIL_Decals' which does not exist.
+Model instance: 'citywalls_anc_sm_tower' of Asset: 'DIS_CVS_Akkad_UI_Bld_Tower' references geo: 'CityWalls_ANC_sm_tower' which does not exist.
+Model instance: 'citywalls_anc_sm_tower_PIL' of Asset: 'DIS_CVS_Akkad_UI_Bld_Tower' references geo: 'citywalls_anc_sm_tower_PIL' which does not exist.
+
+
+****** Log from Asset:     'DIS_CVS_Akkad_UI_Bld_Brazier' (ERRORS!!) ********
+--------------
+ Model instance: 'IMP_Colossal_Heads_Brazier_Lg_PIL' of Asset: 'DIS_CVS_Akkad_UI_Bld_Brazier' references geo: 'IMP_Colossal_Heads_Brazier_Lg_PIL' which does not exist.
+Model instance: 'IMP_Colossal_Heads_Brazier_Lg' of Asset: 'DIS_CVS_Akkad_UI_Bld_Brazier' references geo: 'IMP_Colossal_Heads_Brazier_Lg' which does not exist.
+
+
+****** Log from Asset:     'DIS_CVS_Akkad_UI_Base_01' (ERRORS!!) ********
+--------------
+ Model instance: 'DIS_ENC_Construction_Base_01_Decal' of Asset: 'DIS_CVS_Akkad_UI_Base_01' references geo: 'DIS_ENC_Construction_Base_01_Decal' which does not exist.
+Model instance: 'DIS_ENC_Construction_Base_01' of Asset: 'DIS_CVS_Akkad_UI_Base_01' references geo: 'DIS_ENC_Construction_Base_01' which does not exist.
+Model instance: 'DIS_ENC_Ancient_Base_01_Decal' of Asset: 'DIS_CVS_Akkad_UI_Base_01' references geo: 'DIS_ENC_Ancient_Base_01_Decal' which does not exist.
+Model instance: 'DIS_ENC_Ancient_Base_01' of Asset: 'DIS_CVS_Akkad_UI_Base_01' references geo: 'DIS_ENC_Ancient_Base_01' which does not exist.
+
+
+****** Log from Asset:     'DIS_CVS_Akkad_UI_Bld_Tower_2' (ERRORS!!) ********
+--------------
+ Model instance: 'citywalls_anc_lg_tower_PIL_Decals' of Asset: 'DIS_CVS_Akkad_UI_Bld_Tower_2' references geo: 'citywalls_anc_lg_tower_PIL_Decals' which does not exist.
+Model instance: 'citywalls_anc_lg_tower_Decals' of Asset: 'DIS_CVS_Akkad_UI_Bld_Tower_2' references geo: 'citywalls_anc_lg_tower_Decals' which does not exist.
+Model instance: 'citywalls_anc_lg_tower' of Asset: 'DIS_CVS_Akkad_UI_Bld_Tower_2' references geo: 'CityWalls_ANC_lg_tower' which does not exist.
+Model instance: 'citywalls_anc_lg_tower_PIL' of Asset: 'DIS_CVS_Akkad_UI_Bld_Tower_2' references geo: 'citywalls_anc_lg_tower_PIL' which does not exist.
+
+
+****** Log from Asset:     'DIS_CVS_Akkad_UI_Base_02' (ERRORS!!) ********
+--------------
+ Model instance: 'DIS_ENC_Construction_Base_01_Decal' of Asset: 'DIS_CVS_Akkad_UI_Base_02' references geo: 'DIS_ENC_Construction_Base_01_Decal' which does not exist.
+Model instance: 'DIS_ENC_Construction_Base_01' of Asset: 'DIS_CVS_Akkad_UI_Base_02' references geo: 'DIS_ENC_Construction_Base_01' which does not exist.
+Model instance: 'DIS_ENC_Ancient_Base_01_Decal' of Asset: 'DIS_CVS_Akkad_UI_Base_02' references geo: 'DIS_ENC_Ancient_Base_01_Decal' which does not exist.
+Model instance: 'DIS_ENC_Ancient_Base_01' of Asset: 'DIS_CVS_Akkad_UI_Base_02' references geo: 'DIS_ENC_Ancient_Base_01' which does not exist.
+
+
+****** Log from Asset:     'DIS_CVS_Akkad_UI_Base_03' (ERRORS!!) ********
+--------------
+ Model instance: 'DIS_ENC_Construction_Base_01_Decal' of Asset: 'DIS_CVS_Akkad_UI_Base_03' references geo: 'DIS_ENC_Construction_Base_01_Decal' which does not exist.
+Model instance: 'DIS_ENC_Construction_Base_01' of Asset: 'DIS_CVS_Akkad_UI_Base_03' references geo: 'DIS_ENC_Construction_Base_01' which does not exist.
+Model instance: 'DIS_ENC_Ancient_Base_01_Decal' of Asset: 'DIS_CVS_Akkad_UI_Base_03' references geo: 'DIS_ENC_Ancient_Base_01_Decal' which does not exist.
+Model instance: 'DIS_ENC_Ancient_Base_01' of Asset: 'DIS_CVS_Akkad_UI_Base_03' references geo: 'DIS_ENC_Ancient_Base_01' which does not exist.
+
+
+****** Log from Asset:     'DIS_CVS_Akkad_UI_Base_04' (ERRORS!!) ********
+--------------
+ Model instance: 'DIS_ENC_Construction_Base_01_Decal' of Asset: 'DIS_CVS_Akkad_UI_Base_04' references geo: 'DIS_ENC_Construction_Base_01_Decal' which does not exist.
+Model instance: 'DIS_ENC_Construction_Base_01' of Asset: 'DIS_CVS_Akkad_UI_Base_04' references geo: 'DIS_ENC_Construction_Base_01' which does not exist.
+Model instance: 'DIS_ENC_Ancient_Base_01_Decal' of Asset: 'DIS_CVS_Akkad_UI_Base_04' references geo: 'DIS_ENC_Ancient_Base_01_Decal' which does not exist.
+Model instance: 'DIS_ENC_Ancient_Base_01' of Asset: 'DIS_CVS_Akkad_UI_Base_04' references geo: 'DIS_ENC_Ancient_Base_01' which does not exist.
+
+
+****** Log from Asset:     'Error/TileBase_Error_Asset' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Assets/Error/TileBase_Error_Asset.ast
+
+
+****** Log from Material:  'DIS_CVS_Akkad_UI_Bld_mat' (ERRORS!!) ********
+--------------
+ Entity: 'WON_Hanging_Gardens_N' bound to parameter: 'Normal' does not exist.
+Entity: 'WON_Hanging_Gardens_A' bound to parameter: 'AO' does not exist.
+Entity: 'WON_Hanging_Gardens_M' bound to parameter: 'Metalness' does not exist.
+Entity: 'WON_Hanging_Gardens_G' bound to parameter: 'Gloss' does not exist.
+Entity: 'WON_Hanging_Gardens_L' bound to parameter: 'LightMap' does not exist.
+Entity: 'WON_Hanging_Gardens_E' bound to parameter: 'Emissive' does not exist.
+Starting error propagation from 'DIS_CVS_Akkad_UI_Bld_mat'
+
+
+****** Log from Material:  'FOW/DefaultMaterial' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Materials/FOW/DefaultMaterial.mtl
+
+
+****** Log from Material:  'DefaultSnowMaterial' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Materials/DefaultSnowMaterial.mtl
+
+
+****** Log from Material:  'DefaultBurnMaterial' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Materials/DefaultBurnMaterial.mtl
+
+
+****** Log from Material:  'WON_Hanging_Gardens_Plants_Emissive' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Materials/WON_Hanging_Gardens_Plants_Emissive.mtl
+
+
+****** Log from Material:  'Decal_Parts_Ancient_01' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Materials/Decal_Parts_Ancient_01.mtl
+
+
+****** Log from Material:  'Ruin_Debris_Decal_Light' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Materials/Ruin_Debris_Decal_Light.mtl
+
+
+****** Log from Material:  'DIS_CVS_Akkad_UI_Bld_Walls_mat' (ERRORS!!) ********
+--------------
+ Entity: 'city_walls_A' bound to parameter: 'AO' does not exist.
+Starting error propagation from 'DIS_CVS_Akkad_UI_Bld_Walls_mat'
+
+
+****** Log from Material:  'DIS_CVS_Akkad_UI_Bld_Palisade_mat' (ERRORS!!) ********
+--------------
+ Entity: 'WON_Hagia_Sophia_N' bound to parameter: 'Normal' does not exist.
+Entity: 'WON_Hagia_Sophia_M' bound to parameter: 'Metalness' does not exist.
+Entity: 'WON_Hagia_Sophia_G' bound to parameter: 'Gloss' does not exist.
+Starting error propagation from 'DIS_CVS_Akkad_UI_Bld_Palisade_mat'
+
+
+****** Log from Material:  'IMP_Colossal_Heads' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Materials/IMP_Colossal_Heads.mtl
+
+
+****** Log from Material:  'DIS_CVS_Akkad_UI_Bld_Brazier_mat' (ERRORS!!) ********
+--------------
+ Entity: 'IMP_Colossal_Heads_N' bound to parameter: 'Normal' does not exist.
+Entity: 'IMP_Colossal_Heads_A' bound to parameter: 'AO' does not exist.
+Entity: 'IMP_Colossal_Heads_G' bound to parameter: 'Gloss' does not exist.
+Starting error propagation from 'DIS_CVS_Akkad_UI_Bld_Brazier_mat'
+
+
+****** Log from Material:  'Decal_Parts_Ancient_PIL' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Materials/Decal_Parts_Ancient_PIL.mtl
+
+
+****** Log from Geo:       'WON_Hanging_Gardens_EM' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/WON_Hanging_Gardens_EM.geo
+
+
+****** Log from Geo:       'CityWalls_ANC_gate_Decals' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/CityWalls_ANC_gate_Decals.geo
+
+
+****** Log from Geo:       'CityWalls_ANC_gate_PIL_Decals' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/CityWalls_ANC_gate_PIL_Decals.geo
+
+
+****** Log from Geo:       'CityWalls_ANC_gate' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/CityWalls_ANC_gate.geo
+
+
+****** Log from Geo:       'CityWalls_ANC_gate_PIL' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/CityWalls_ANC_gate_PIL.geo
+
+
+****** Log from Geo:       'Won_Hagia_Wall_Straight' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/Won_Hagia_Wall_Straight.geo
+
+
+****** Log from Geo:       'Won_Hagia_Wall_Corner_Out' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/Won_Hagia_Wall_Corner_Out.geo
+
+
+****** Log from Geo:       'citywalls_anc_sm_tower_Decals' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/citywalls_anc_sm_tower_Decals.geo
+
+
+****** Log from Geo:       'citywalls_anc_sm_tower_PIL_Decals' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/citywalls_anc_sm_tower_PIL_Decals.geo
+
+
+****** Log from Geo:       'CityWalls_ANC_sm_tower' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/CityWalls_ANC_sm_tower.geo
+
+
+****** Log from Geo:       'citywalls_anc_sm_tower_PIL' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/citywalls_anc_sm_tower_PIL.geo
+
+
+****** Log from Geo:       'IMP_Colossal_Heads_Brazier_Lg_PIL' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/IMP_Colossal_Heads_Brazier_Lg_PIL.geo
+
+
+****** Log from Geo:       'IMP_Colossal_Heads_Brazier_Lg' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/IMP_Colossal_Heads_Brazier_Lg.geo
+
+
+****** Log from Geo:       'DIS_ENC_ANC_CLA_OB' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/DIS_ENC_ANC_CLA_OB.geo
+
+
+****** Log from Geo:       'DIS_ENC_Construction_Base_01_Decal' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/DIS_ENC_Construction_Base_01_Decal.geo
+
+
+****** Log from Geo:       'DIS_ENC_Construction_Base_01' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/DIS_ENC_Construction_Base_01.geo
+
+
+****** Log from Geo:       'DIS_ENC_Ancient_Base_01_Decal' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/DIS_ENC_Ancient_Base_01_Decal.geo
+
+
+****** Log from Geo:       'DIS_ENC_Ancient_Base_01' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/DIS_ENC_Ancient_Base_01.geo
+
+
+****** Log from Geo:       'citywalls_anc_lg_tower_PIL_Decals' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/citywalls_anc_lg_tower_PIL_Decals.geo
+
+
+****** Log from Geo:       'citywalls_anc_lg_tower_Decals' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/citywalls_anc_lg_tower_Decals.geo
+
+
+****** Log from Geo:       'CityWalls_ANC_lg_tower' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/CityWalls_ANC_lg_tower.geo
+
+
+****** Log from Geo:       'citywalls_anc_lg_tower_PIL' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Geometries/citywalls_anc_lg_tower_PIL.geo
+
+
+****** Log from Texture:   'city_walls_ANC_A' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Textures/city_walls_ANC_A.tex
+
+
+****** Log from Texture:   'WON_Hanging_Gardens_N' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Textures/WON_Hanging_Gardens_N.tex
+
+
+****** Log from Texture:   'WON_Hanging_Gardens_A' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Textures/WON_Hanging_Gardens_A.tex
+
+
+****** Log from Texture:   'WON_Hanging_Gardens_M' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Textures/WON_Hanging_Gardens_M.tex
+
+
+****** Log from Texture:   'WON_Hanging_Gardens_G' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Textures/WON_Hanging_Gardens_G.tex
+
+
+****** Log from Texture:   'WON_Hanging_Gardens_L' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Textures/WON_Hanging_Gardens_L.tex
+
+
+****** Log from Texture:   'WON_Hanging_Gardens_E' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Textures/WON_Hanging_Gardens_E.tex
+
+
+****** Log from Texture:   'city_walls_A' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Textures/city_walls_A.tex
+
+
+****** Log from Texture:   'WON_Hagia_Sophia_N' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Textures/WON_Hagia_Sophia_N.tex
+
+
+****** Log from Texture:   'WON_Hagia_Sophia_M' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Textures/WON_Hagia_Sophia_M.tex
+
+
+****** Log from Texture:   'WON_Hagia_Sophia_G' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Textures/WON_Hagia_Sophia_G.tex
+
+
+****** Log from Texture:   'IMP_Colossal_Heads_N' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Textures/IMP_Colossal_Heads_N.tex
+
+
+****** Log from Texture:   'IMP_Colossal_Heads_A' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Textures/IMP_Colossal_Heads_A.tex
+
+
+****** Log from Texture:   'IMP_Colossal_Heads_G' (ERRORS!!) ********
+--------------
+ I/O error reading XML: C:\Users\chris\Documents\Firaxis ModBuddy\Civilization VI\CIVITAS Akkad\CIVITAS Akkad/Textures/IMP_Colossal_Heads_G.tex
+
+Load finished for: 'landmarks/tilebases' in 0.073 seconds
+Cook finished for: 'landmarks/tilebases' in 0.004 seconds
+Disk write finished for: 'landmarks/tilebases' in 0.004 seconds
+BLP: 'C:\Users\chris\Documents\My Games\Sid Meier's Civilization VI\Mods\CIVITAS Akkad\Platforms\Windows\BLPs/landmarks/tilebases.blp' HAS MISSING ENTRIES!
+Cleanup finished for: 'landmarks/tilebases' in 0.006 seconds
+Cook completed in 1.660 seconds

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>CIVITAS [ICON_GREATPERSON] Naram-Sin</Name>
+    <Guid>825f83b8-a0c0-4822-97a7-8be679dec3c1</Guid>
+    <ProjectGuid>7956c2c3-34ed-49a3-b002-c3b1a7f54830</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Adds Naram-Sin as a leader for CIVITAS Akkad</Teaser>
+    <Description>Adds Naram-Sin as a leader for CIVITAS [ICON_GOVERNMENT] Akkad</Description>
+    <Authors>Chrisy15</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <ModProperties>
+      <CompatibleVersions>2.0</CompatibleVersions>
+    </ModProperties>
+    <AssemblyName>CIVITAS Naram-Sin</AssemblyName>
+    <RootNamespace>CIVITAS Naram-Sin</RootNamespace>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Mod" title="CIVITAS [ICON_GOVERNMENT] Akkad" id="5fd81a48-54c6-4f25-b119-fc499a92cdf9" />
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="NaramSin_Setup_DB"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/NaramSin_Config.sql</File></UpdateDatabase><UpdateText id="NaramSin_Setup_Text"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/NaramSin_Localisation.sql</File></UpdateText><UpdateIcons id="NaramSin_Setup_Icons"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/NaramSin_Icons.sql</File></UpdateIcons><UpdateColors id="NaramSin_Setup_Colors"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/NaramSin_Colors.sql</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="NaramSin_DB"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/NaramSin_Leader.sql</File><File>Core/NaramSin_UA.sql</File><File>Core/NaramSin_Agenda.sql</File><File>Core/NaramSin_Strategy.sql</File><File>Core/NaramSin_ModSupport.sql</File></UpdateDatabase><UpdateText id="NaramSin_Text"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/NaramSin_Localisation.sql</File></UpdateText><UpdateIcons id="NaramSin_Icons"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/NaramSin_Icons.sql</File></UpdateIcons><AddGameplayScripts id="NaramSin_Scripts"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/NaramSin_Scripts.lua</File></AddGameplayScripts><UpdateColors id="NaramSin_Colors"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/NaramSin_Colors.sql</File></UpdateColors></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Core\NaramSin_Agenda.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\NaramSin_Colors.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\NaramSin_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\NaramSin_Icons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\NaramSin_Leader.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\NaramSin_Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\NaramSin_ModSupport.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\NaramSin_Scripts.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\NaramSin_Strategy.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\NaramSin_UA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\NaramSin_UU.sql">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

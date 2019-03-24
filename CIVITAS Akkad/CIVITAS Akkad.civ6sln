@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# ModBuddy Solution File, Format Version 12.00
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "CIVITAS Akkad", "CIVITAS Akkad\CIVITAS Akkad.civ6proj", "{8CAFC4F6-7268-4BC8-B16F-6BBA0FCB9E6E}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "CIVITAS Sargon", "CIVITAS Sargon\CIVITAS Sargon.civ6proj", "{F6D46309-952C-4704-8375-40FCE1695396}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "CIVITAS Naram-Sin", "CIVITAS Naram-Sin\CIVITAS Naram-Sin.civ6proj", "{7956C2C3-34ED-49A3-B002-C3B1A7F54830}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "CIVITAS Enheduanna", "CIVITAS Enheduanna\CIVITAS Enheduanna.civ6proj", "{57CD0276-8196-40A3-8766-C4C66C0B5114}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Civ6 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CAFC4F6-7268-4BC8-B16F-6BBA0FCB9E6E}.Default|Civ6.ActiveCfg = Default|Civ6
+		{8CAFC4F6-7268-4BC8-B16F-6BBA0FCB9E6E}.Default|Civ6.Build.0 = Default|Civ6
+		{F6D46309-952C-4704-8375-40FCE1695396}.Default|Civ6.ActiveCfg = Default|Civ6
+		{F6D46309-952C-4704-8375-40FCE1695396}.Default|Civ6.Build.0 = Default|Civ6
+		{7956C2C3-34ED-49A3-B002-C3B1A7F54830}.Default|Civ6.ActiveCfg = Default|Civ6
+		{7956C2C3-34ED-49A3-B002-C3B1A7F54830}.Default|Civ6.Build.0 = Default|Civ6
+		{57CD0276-8196-40A3-8766-C4C66C0B5114}.Default|Civ6.ActiveCfg = Default|Civ6
+		{57CD0276-8196-40A3-8766-C4C66C0B5114}.Default|Civ6.Build.0 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
